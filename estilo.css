@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+#header nav ul, #header nav ul li {
+	display: inline-block;
+	/*para deixar lado a lado e nao um em cima do outro*/
+
+	list-style: none;
+	/*para tirar o estilo da lista, ou seja, os pontinhos ou numeros	*/
+	
+	align-items: center;
+
+	/*gap: 2rem; 
+	 para distanciar, dar espaços entre os itens */
+
+	/*position: fixed; 
+	para fixar sua posição ao rolar a tela*/
+
+	height: 2rem;
+	/*definindo a altura, rem é altura raiz utilizada pelo css*/
+	width: 100%;
+
+
+
+}
+
+a{
+	text-decoration: none;
+	align-items: center;
+}
+
+section{
+	height: 90vh;
+	padding-top: 2.5rem; /*para que não fique abaixo do menu de nav*/
+}
+
+#sobre{
+	background: blue;
+}
+#historias{
+	background: green;
+}
+#contato{
+	background: pink;
+}
+
+footer{
+	background: red;
+	height: 10vh;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1vh 1vh 1vh;
+}
+
